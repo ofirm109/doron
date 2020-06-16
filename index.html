@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="he" class="no-js" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>הרשמה לבריזה</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js" integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+
+
+
+	
+
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-center text-light">
+				<div class="hero-bg" style="height:90%;"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
+
+				</div>
+                <div class="container-sm">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+							<iframe width="80%" height="290" src="https://www.youtube.com/embed/wmZxNHGLgBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	                        <h1 class="hero-title mt-0">עונת המנויים התחילה</h1>
+	                        <p class="hero-paragraph" style="color:white;">הירשמו עוד היום</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" id="but"> להרשמה</a>
+							</div>
+
+							<!--<iframe  width="560" height="315" src="https://www.youtube.com/embed/wmZxNHGLgBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+						</div>
+						<div class="mockup-container">
+							<div class="mockup-bg">
+								<!--<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">-->
+							</div>
+							<!--<img class="device-mockup" src="dist/images/iphone-hero.png" alt="iPhone Hero">-->
+
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="features-extended section">
+				
+				<form id="google_form_submit"  style="width:50%; margin:auto; margin-bottom:15%;" method="POST" data-email="from_email@example.com" action="https://script.google.com/macros/s/AKfycbyFGVhp21bu_6xXO0rEQjDQdVCc1sKKimV1SbYkzCczrp7AcxU/exec"  >
+					<h2 style="text-align:center;">מלאו את הפרטים כדי שנציג יחזור אלכם</h2>
+					<div class="form-group">
+						<label for="firstName">שם פרטי</label>
+						<input type="text" name="firstName" class="form-control" id="firstName" aria-describedby="firstName" placeholder="כתוב שם פרטי">
+						<!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+					</div>
+					<div class="form-group">
+						<label for="secendName">שם משפחה</label>
+						<input type="text" name="secendName" class="form-control" id="secendName" aria-describedby="secendName" placeholder="כתוב שם משפחה">
+						<!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+					</div>
+					<div class="form-group">
+						<label for="CellNumber">מספר נייד</label>
+						<input type="tel" name="CellNumber" class="form-control" id="CellNumber" aria-describedby="cell" placeholder="כתוב מספר נייד">
+						<!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+					</div>
+					<button type="submit" class="btn btn-primary" style="width:100%" data-toggle="modal" data-target="#exampleModal">שלח</button>
+				</form>
+            </section>
+        </main>
+
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top">
+				<section class="cta section text-light">
+					<div class="container-sm">
+						<div class="cta-inner section-inner">
+							<div class="cta-header text-center">
+								<h2 class="section-title mt-0">רוצים לקבל עוד פרטים על הפעילות?</h2>
+								<!--<p class="section-paragraph">כנסו לאתר של בריזה</p>-->
+								<div class="cta-cta">
+									<a class="button button-primary button-wide-mobile" href="https://www.briza-club.co.il/">לאתר של בריזה</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+							<a href="#">
+								<img src="dist/images/logo.svg" alt="Venus logo">
+							</a>
+						</div>
+						
+						<ul class="footer-social-links list-reset">
+							<li>
+								<a href="https://www.facebook.com/briza.holon/?ref=settings">
+									<span class="screen-reader-text">Facebook</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
+									</svg>
+								</a>
+							</li>
+
+							<!--<li>
+								<a href="#">
+									<span class="screen-reader-text">Google</span>
+									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFF"/>
+									</svg>
+									<img width="16" height="16" src="https://image.flaticon.com/icons/svg/1384/1384047.svg" />
+								</a>
+							</li>-->
+						</ul>
+						<div class="footer-copyright">&copy; האתר נוצר על ידי אופיר מזרחי</div>
+					</div>
+				</div>
+			</div>
+        </footer>
+
+
+
+
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">הבקשה נשלחה</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						נציג שלנו יחזור אלכם בימים הקרובים
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">סגור</button>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+		<script type="text/javascript">
+			$('#but').click(function () {
+				/*$("html, body").animate({ scrollTop: $('#google_form_submit').height() }, 1000)*/;
+				$("html, body").animate({ scrollTop: $('#google_form_submit').offset().top }, 2000);
+			});
+
+			$('#google_form_submit').submit(function (e) {
+
+				e.preventDefault();
+			var formData = $('#google_form_submit').serialize();
+			$.ajax({
+				type: 'POST',
+				url: 'https://script.google.com/macros/s/AKfycbyFGVhp21bu_6xXO0rEQjDQdVCc1sKKimV1SbYkzCczrp7AcxU/exec',
+				data: formData,
+				dataType: 'json',
+				encode: true
+			}).done(function (data) {
+				if (data.result == 'success') {
+					//$('#exampleModal').modal(true);
+					
+
+			} else {
+				// Form was submission failed for some reasons.
+				// You can examine the response from google to see whats missing
+
+			}
+			}).fail(function (jqXHR, status, err) {
+				// Form submission failed due to some network or other errors
+				// I am alerting the error but you can do anything else with it
+				alert("בעית חיבור");
+			});
+		});
+
+	</script>
+
+
+
+	<script data-cfasync="false" type="text/javascript"
+			src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+	
+</body>
+</html>
